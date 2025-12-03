@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TA Application</title>
+<link rel="stylesheet" href="TA.css">
+</head>
+
+<body>
+  <div id="m_body">
+
+    <header>
+      <img src="../images/logo.png" alt="Logo">
+      <div class="header-content">
+        <h1>Computer Science Department</h1>
+        <nav>
+          <a href="home.html">Home</a>
+          <a href="description.html">Program Description</a>
+          <a href="TA.html" class="active">TA Application</a>
+          <a href="GPA.html">GPA Calculator</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div id="ta-box">
+        <h2>Teaching Assistant Application Form</h2>
+
+        <h3>Applicant information</h3>
+<form name="myform" action="survey_data.html" method="get">
+  <label>First name:</label>
+  <input type="text" name="firstname" class="input-field"><br>
+
+  <label>Last name:</label>
+  <input type="text" name="lastname" class="input-field"><br>
+
+  <label>Student ID:</label>
+  <input type="text" name="studentid" class="input-field"><br>
+
+  <label>Gender:</label>
+  <span class="gender-group">
+    M <input type="checkbox" name="gender_m" value="M">
+    F <input type="checkbox" name="gender_f" value="F">
+  </span><br>
+
+  <label>GPA:</label>
+  <input type="text" name="gpa" class="small-field"><br>
+
+  <label>Comments:</label>
+   <input type="text" name="comments" class="comment-box"><br>
+  
+  <h3>Thank you for completing the application!</h3>
+
+  <div class="buttons">
+    <input type="submit" id="button" value="Submit">
+    <input type="reset" id="reset" value="Reset">
+  </div>
+</form>
+
+      </div>
+    </main>
+    <footer>
+      <div class="footer-left">
+        7400 East Drive<br>
+        Montgomery, AL 36117<br>
+        Local: 334-244-3000<br>
+        Toll-Free: 800-227-2649
+      </div>
+
+      <div class="footer-center">
+        © 2025 Minendhar Sara
+      </div>
+
+      <div class="footer-right">
+        <img src="../images/twt.jpeg" alt="Twitter">
+        <img src="../images/pinterest-logo.png" alt="Pinterest">
+        <img src="../images/facebook-social-network-logo.png" alt="Facebook">
+      </div>
+    </footer>
+
+  </div>
+</body>
+</html>
